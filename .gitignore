@@ -1,0 +1,43 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+
+# Local evaluation/cache artifacts
+.deepeval/
+
+# Node
+node_modules/
+
+# Non-code research artifacts
+README.md
+RUN_AT_SCALE.md
+paper/
+my_datasets/
+*.csv
+*.docx
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.pkl
+*.tex
+*.bib
+*.sty
+*.bst
+*.json
+*.txt
+!requirements.txt
+
+# Temporary/build files
+*.tmp
+.~lock*#
+*.log
+*.aux
+*.out
+*.blg
+*.bbl

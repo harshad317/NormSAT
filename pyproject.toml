@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rancsat"
+version = "0.1.0"
+description = "RANC-SAT / NormSAT: constraint-satisfying normalization compiler with invariance contracts and falsification certificates."
+requires-python = ">=3.9"
+authors = [{ name = "Harshad" }]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "scikit-learn>=1.1",
+    "pandas>=1.4",
+]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["rancsat*"]
