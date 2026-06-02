@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "rancsat"
 version = "0.1.0"
 description = "RANC-SAT / NormSAT: constraint-satisfying normalization compiler with invariance contracts and falsification certificates."
+readme = "README.md"
 requires-python = ">=3.9"
 authors = [{ name = "Harshad" }]
 dependencies = [

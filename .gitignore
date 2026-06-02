@@ -14,7 +14,6 @@ pytest-cache-files-*/
 node_modules/
 
 # Non-code research artifacts
-README.md
 RUN_AT_SCALE.md
 paper/
 my_datasets/
